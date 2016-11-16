@@ -1,0 +1,268 @@
+/*.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}*/
+/*.navbar {
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 140px;
+  padding-right: 140px;
+  background-color: white;
+}*/
+
+/*.jumbotron {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 140px;
+  padding-right: 140px;
+  color: white;
+  font-weight: bold;
+  background: url(http://realestatews.com/wp-content/uploads/2016/03/rabun-bald-sky-valley-georgia-wallpaper-1920x1440-wallpaper.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+/*.jumbotron h1{
+color: white;
+text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}*/
+
+/* navbar fixed top
+*********************/
+body {
+  /*min-height: 2000px;
+  padding-top: 70px;*/
+}
+/*.cover-container {
+  vertical-align: middle;
+}*/
+.cover-heading {
+  color: white;
+}
+.cover-lead {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .cover-lead {
+    font-size: 21px;
+  }
+}
+@media (min-width: 768px) {
+  .cover-lead {
+    font-size: 21px;
+  }
+}
+
+
+
+.featurette-image {
+      border-radius: 50%;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      padding-top: 20px;
+}
+
+.featurette {
+margin: 0 auto;
+}
+
+.featurette-heading {
+  text-align: left;
+}
+
+.featurette-text {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.masthead-brand {
+  color: white;
+}
+
+/*Portfolio*/
+#portfolio .portfolio-item {
+  margin: 50px 0 0 15px;
+  right: 0;
+}
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: rgba(24, 188, 156, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#portfolio * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.portfolio-modal .modal-content h2 {
+  margin: 0;
+  font-size: 3em;
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.portfolio-modal .modal-content .item-details {
+  margin: 30px 0;
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.portfolio-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #2C3E50;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.portfolio-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #2C3E50;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.portfolio-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+.cushion {
+  padding: 100px 0;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+}
+/************
+forms*/
+
+.textAr-width {
+width: 400px;
+}
+
+.button-width {
+width: 100%;
+font-weight: bold;
+}
+/************
+footer*/
+.panel-footer {
+  background-color: #2C3E50;
+    color: white;
+}
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .navbar-fixed-top {
+    position: fixed;
+    top: 0;
+  }
+
+/* Handle the widths */
+  .navbar-fixed-top {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+@media (min-width: 992px) {
+  .navbar-fixed-top {
+    width: 700px;
+  }
+}
+
+section {
+  padding: 100px 0;
+}
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+section.area {
+  background: #18BC9C;
+  color: white;
+}
+section.foot {
+  background: #2C3E50;
+  color: white;
+}
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.foot {
+    background-color: #2C3E50;
+    color: white;
+  }
+}
